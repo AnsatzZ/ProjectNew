@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Project
         run: |
-          cd ProjectNew
+          
           mvn clean install -DskipTests
 
       - name: Configure AWS credentials
